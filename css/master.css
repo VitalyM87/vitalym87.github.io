@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   background-color: #9792BC;
+  color: lightgrey;
 }
 h1 {
   color: #A0C875;
@@ -18,4 +19,24 @@ fieldset {
 }
 input[type="text"] {
   width: 100%;
+}
+
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+
+/*photos*/
+
+.photos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-template-rows: repeat(3, 25vw);*/
+  grid-gap: 15px;
+}
+.photo_img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
 }
