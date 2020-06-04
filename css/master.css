@@ -1,14 +1,15 @@
 body {
   font-family: sans-serif;
-  background-color: #9792BC;
-  color: lightgrey;
+  background-color:#607d8b;
+  color:#fff;
 }
 h1 {
-  color: #A0C875;
+  color:#fff;
 }
 a, a:active, a:visited {
   text-decoration: none;
-  color: #ADD675;
+  color:#fff;
+  font-weight: bolder;
 }
 a:hover {
   text-decoration: underline;
