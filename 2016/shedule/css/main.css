@@ -1,0 +1,27 @@
+.section {
+  margin-bottom: 2em;
+}
+.col-xs-2 {
+  min-height: 3em;
+  border: 1px solid white;
+}
+.row {
+  border-bottom: 1px solid grey;
+}
+.section .row:first-of-type {
+  border-top: 1px solid grey;
+}
+
+
+.rest {
+  background-color: rgba(190,235,159,.9);
+}
+.work-daytime {
+  background-color: rgba(255,97,56,.5);
+}
+.work-day-8hours {
+  background-color: rgba(70,137,102,.5);
+}
+.work-nighttime {
+  background-color: rgba(0,163,136,.5);
+}

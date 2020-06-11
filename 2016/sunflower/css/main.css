@@ -1,0 +1,97 @@
+/*HEADER*/
+
+.header {
+  background-color: rgba(47, 47, 47, 1);
+  min-height: 475px;
+  color: rgb(255, 8, 50);
+}
+
+.header h1 {
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 475px;
+}
+
+
+/*OPTIONS*/
+
+.options {
+  background-color: white;
+}
+
+.options img {
+  margin: 34px auto;
+}
+
+.options h3,
+.options p {
+  margin: 0 10px 50px 10px;
+  text-align: center;
+}
+
+
+/*MAIN*/
+
+.main {
+  background-color: rgba(36, 36, 46, 1);
+  color: white;
+}
+
+.main h2 {
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main h3 {
+  text-transform: uppercase;
+  margin: 40px 0 20px;
+}
+
+.main h4 {
+  color: rgb(193, 193, 193);
+  text-align: center;
+}
+
+.main p {
+  margin: 40px;
+}
+
+.main img {
+  margin: 50px 0;
+}
+
+.text-color-red {
+  color: rgb(255, 8, 50);
+}
+
+
+
+
+.screenshot1 {
+  background-color: rgba(47, 47, 47, 1);
+  text-align: center;
+  color: white;
+}
+.screenshot1 .screenshot1-pic {
+  padding: 0;
+}
+.screenshot1 .screenshot1-pic img {
+  margin: 20px 0 0;
+}
+.screenshot1 h3 {
+  margin: 50px 30px;
+}
+
+
+/*HISTORY*/
+
+
+/*MODEL*/
+
+.blender-model-div {
+  margin: 2% 10%;
+}

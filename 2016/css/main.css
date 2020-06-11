@@ -1,0 +1,46 @@
+body {
+  font-size: 1.7em;
+}
+
+.header {
+  background-color: rgb(127,130,123);
+  padding: 10px 0 30px;
+  color: white;
+}
+
+.header-top {
+  background-color: rgb(34,53,60);
+}
+.header-top a {
+  margin: 0 10px 10px;
+  color: white;
+}
+/*.portfolio {
+  background-color: rgb(70,191,172);
+}*/
+.portfolio ul{
+  list-style-type: none;
+}
+.portfolio_item {
+  margin-bottom: 20px;
+}
+.portfolio_item p {
+  padding: 10px;
+  min-height:;
+}
+.portfolio_item img {
+  min-width: 80%;
+}
+
+.main {
+  background-color: rgb(127,130,123);
+  min-height: 500px;
+  color: white;
+}
+
+.footer {
+  color: white;
+  background-color: rgb(34,53,60);
+  min-height: 100px;
+  padding: 20px 0;
+}
