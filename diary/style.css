@@ -8,12 +8,12 @@ body {
 }
 
 
-.header {
+.header-nav {
   overflow: hidden;
   background-color: #333;
 }
 
-.header p {
+.header-nav a {
   float: left;
   color: white;
   text-align: center;
@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 
-.header p:hover {
+.header-nav a:hover {
   background-color: #ddd;
   color: black;
 }
