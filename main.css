@@ -60,6 +60,7 @@ body {
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
+  font-size: 0.8em;
 }
 
 /* Main column */
@@ -70,39 +71,58 @@ body {
   background-color: white;
   padding: 20px;
   display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
 }
 
 .link-h2 {
   display: inline-block;
-  margin: 0;
+  margin: 0 2em;
   min-height: 3em;
 }
 
 .link {
-  max-width: 420px;
-}
-
-.link-screenshot {
   max-width: 400px;
+  border-width: 1px;
+  border-collapse: inherit;
+  border-style:solid;
+  margin: 1em;
+}
+.link-text {
+  margin: 1em 2em;
+}
+.link-screenshot {
+  margin: 0;
+  padding: 0;
+  max-width: 398px;
   opacity: 0.6;
 }
 
 /* Footer */
 .footer {
   padding: 20px;
+  color: white;
   text-align: center;
   background: #ddd;
 }
 
 /* Responsive layout - when the screen is less than 860px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 860px) {
-  .row .main {
+  .row {
+    flex-direction: column;
+  }
+
+  .main {
     flex-direction: column;
   }
 
   .link-h2 {
     display: auto;
-    margin: 0;
+    margin: 1em;
     min-height: auto;
+  }
+  .link-text  {
+    margin: 1em;
   }
 }
