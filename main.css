@@ -7,7 +7,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-
+a {
+  text-decoration: none;
+}
 /* Header/logo Title */
 .header {
   padding: 80px;
@@ -34,11 +36,13 @@ body {
   text-align: center;
   padding: 5px 20px;
   margin: 0;
+  text-decoration: none;
 }
 
 .header-nav a:hover {
   background-color: #ddd;
   color: black;
+  text-decoration: none;
 }
 
 
@@ -83,7 +87,8 @@ body {
 }
 
 .link {
-  max-width: 300px;
+  max-width: 250px;
+  max-height: 500px;
   border-width: 1px;
   border-collapse: inherit;
   border-style:solid;
@@ -95,7 +100,7 @@ body {
 .link-screenshot {
   margin: 0;
   padding: 0;
-  max-width: 298px;
+  max-width: 248px;
   opacity: 0.6;
 }
 
@@ -108,14 +113,14 @@ body {
 }
 
 /* Responsive layout - when the screen is less than 860px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 800px) {
   .row {
     flex-direction: column;
   }
 
-  .main {
+  /*.main {
     flex-direction: column;
-  }
+  }*/
 
   .link-h2 {
     display: auto;
