@@ -21,11 +21,6 @@ body {
   font-size: 40px;
 }
 
-/*test*/
-.h1cool {
-  color: red;
-}
-
 /* Column container */
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -50,14 +45,13 @@ body {
   background-color: white;
   padding: 20px;
 }
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+.link {
+max-width: 420px;
 }
-
+.link_screenshot{
+  max-height: 200px;
+  opacity: 0.6;
+}
 /* Footer */
 .footer {
   padding: 20px;
