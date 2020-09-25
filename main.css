@@ -120,7 +120,9 @@ a {
   .row {
     flex-direction: column;
   }
-
+#wrap-text {
+  display: none;
+}
   /*.main {
     flex-direction: column;
   }*/
