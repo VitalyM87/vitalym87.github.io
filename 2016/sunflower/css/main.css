@@ -1,3 +1,20 @@
+.header-nav {
+  /*overflow: hidden;*/
+  background-color: #333;
+  display: block;
+  position: relative;
+}
+
+
+.header-nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 5px 20px;
+  margin: 0;
+  text-decoration: none;
+}
+
 /*HEADER*/
 
 .header {
