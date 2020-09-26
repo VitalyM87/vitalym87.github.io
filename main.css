@@ -18,10 +18,10 @@ a {
   color: white;
 }
 
-/* Increase the font size of the heading */
+/* Increase the font size of the heading
 .header h1 {
   font-size: 40px;
-}
+}*/
 
 /* header nav */
 .header-nav {
@@ -115,12 +115,12 @@ a {
 .alg-img {
   max-width: 100%;
 }
-/* Responsive layout - when the screen is less than 860px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .row {
     flex-direction: column;
   }
-#wrap-text {
+#wrapedTextIntro, #wrapedText {
   display: none;
 }
   /*.main {
