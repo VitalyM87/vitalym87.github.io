@@ -7,12 +7,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-a {
-  text-decoration: none;
-}
+
 /* Header/logo Title */
 .header {
-  padding: 80px;
+  padding: 40px;
   text-align: center;
   background: #1abc9c;
   color: white;
@@ -126,12 +124,14 @@ a {
   .row {
     flex-direction: column;
   }
+
 #wrapedTextIntro, #wrapedText {
   display: none;
 }
-  /*.main {
+.header-nav {
+  display: flex;
     flex-direction: column;
-  }*/
+}
 
   .link-h2 {
     display: auto;
