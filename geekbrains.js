@@ -11,5 +11,6 @@ function nameAdmin() {
 
 function typeTest() {
   let anyType = (1000 + "108");
+  alert(anyType);
   alert(typeof(anyType));
 }
