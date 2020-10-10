@@ -31,3 +31,9 @@ function conditionFirst() {
     }
   }
 }
+
+
+function test() {
+  let a = 0;
+  alert(a);
+}
