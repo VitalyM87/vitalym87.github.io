@@ -15,6 +15,10 @@ function typeTest() {
   alert(typeof(anyType));
 }
 
+
+//LESSON2
+
+
 function conditionFirst() {
   let a = +prompt('Введите значение переменной А', '1');
   let b = +prompt('Введите значение переменной B', '1');
@@ -126,7 +130,7 @@ function hw2ex5and6() {
       result = div(a, b);
       alert(`Частное чисел ${result}`);
       break;
-      default:
+    default:
       alert('Что-то пошло не так');
   }
 }
@@ -158,4 +162,52 @@ function hw2ex8() {
   }
 
   alert(power(6, 3));
+}
+
+//LESSON3
+
+function hw3ex1() {
+  let arr = [];
+  let num = 1;
+
+  function isPrime(num) {
+    let i = 2;
+    while (i < num) {
+      if (num % i === 0) {
+        return false;
+        break;
+      }
+      i++;
+    }
+    return true;
+  }
+
+  while (num < 100) {
+
+    if (isPrime(num)) {
+      arr.push(num);
+    }
+    num++;
+  }
+
+  console.log(arr);
+}
+
+function hw3ex2() {
+  let basket = [100, 200, 300, 400];
+
+  function countBasketPrice(m) {
+    let arrLength = m.length;
+    let i = 0;
+    let summ = 0;
+    while (i < arrLength) {
+      summ = summ + m[i];
+      i++;
+    }
+    return summ;
+  }
+
+  let x = countBasketPrice(basket);
+
+  console.log(x);
 }
