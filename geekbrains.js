@@ -196,18 +196,22 @@ function hw3ex1() {
 function hw3ex2() {
   let basket = [100, 200, 300, 400];
 
-  function countBasketPrice(m) {
-    let arrLength = m.length;
-    let i = 0;
-    let summ = 0;
-    while (i < arrLength) {
-      summ = summ + m[i];
-      i++;
-    }
-    return summ;
-  }
+  let result = basket.reduce(function(sum, current) {
+    return sum + current
+  });
 
-  let x = countBasketPrice(basket);
+  console.log(result);
 
-  console.log(x);
+  //function countBasketPrice(array) {
+  //let arrLength = array.length;
+  //let i = 0;
+  //let summ = 0;
+  //while (i < arrLength) {
+  //  summ = summ + array[i];
+  //  i++;
+  //}
+  //return summ;
+  //}
+
+  //let x = countBasketPrice(basket);
 }
