@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.logo {
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* header nav */
+.header-nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.header-nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 5px 20px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+
+/* Content */
+main {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.cart {
+  -ms-flex: 30%;
+  /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main column */
+.goods-list {
+  -ms-flex: 70%;
+  /* IE10 */
+  flex: 70%;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+
+  background-color: white;
+  padding: 20px;
+  display: flex;
+
+  /*max-width: 900px;*/
+  margin: auto;
+}
+
+/*стили товара в каталоге*/
+.good {
+  width: 250px;
+  /*max-height: 500px;
+  border-width: 1px;
+  border-collapse: inherit;
+  border-style: solid;*/
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.good__image {
+  margin: 0;
+  padding: 0;
+  /*max-width: 200px;*/
+  max-height: 250px;
+  opacity: 0.8;
+}
+
+.good__meta {
+  min-height: 3em;
+}
+
+/*стили товара в корзине*/
+.cart__list {
+  max-width: 250px;
+  max-height: 500px;
+  /*border-width: 1px;
+  border-collapse: inherit;
+  border-style: solid;*/
+  margin: 1em;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 640px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 640px) {
+  main {
+    flex-direction: column-reverse;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
