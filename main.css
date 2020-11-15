@@ -78,7 +78,7 @@ body {
   flex: 70%;
   background-color: white;
   padding: 20px;
-  display: flex;
+  display: grid;
   -ms-flex-wrap: wrap;
   /* IE10 */
   flex-wrap: wrap;
@@ -91,7 +91,8 @@ body {
 }
 
 .link {
-  max-width: 250px;
+
+  /*max-width: 250px;*/
   max-height: 500px;
   border-width: 1px;
   border-collapse: inherit;
@@ -99,11 +100,11 @@ body {
   margin: 1em;
 }
 .link-text {
-  margin: 1em 2em;
+  margin: auto;
 }
 .link-screenshot {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+ /* padding: 0;*/
   max-width: 248px;
   opacity: 0.6;
 }
